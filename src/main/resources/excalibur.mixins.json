@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.Amano.excalibur.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "excalibur.refmap.json",
+  "mixins": [
+    "ExcaliburMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
